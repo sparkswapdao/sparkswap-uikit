@@ -1887,7 +1887,7 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 50 50" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 220 50" }, props),
         React__default['default'].createElement("image", { width: "50", height: "50", href: isDark ? '/images/logo-menu-dark.png' : '/images/logo-menu-light.png' })));
 };
 
