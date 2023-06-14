@@ -2,16 +2,16 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#aa8929",
-  primaryBright: "#aa8929",
-  primaryDark: "#aa8929",
+  primary: "#de0a8d",
+  primaryBright: "#de0a8d",
+  primaryDark: "#de0a8d",
   secondary: "#7645D9",
   success: "#31D0AA",
   warning: "#FFB237",
 };
 
 export const brandColors = {
-  binance: "#F0B90B",
+  binance: "#de0a8d",
 };
 
 export const lightColors: Colors = {
@@ -23,7 +23,7 @@ export const lightColors: Colors = {
   invertedContrast: "#FFFFFF",
   input: "#eeeaf4",
   tertiary: "#EFF4F5",
-  text: "#452A7A",
+  text: "#8220f6",
   textDisabled: "#BDC2C4",
   textSubtle: "#8f80ba",
   borderColor: "#E9EAEB",
@@ -36,7 +36,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#9A6AFF",
+  secondary: "#bc0fc8",
   background: "#343135",
   backgroundDisabled: "#3c3742",
   contrast: "#FFFFFF",
