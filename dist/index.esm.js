@@ -2222,7 +2222,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/empmoneybsc",
+        href: "https://twitter.com/impulse_money",
     },
 ];
 var MENU_HEIGHT = 64;
