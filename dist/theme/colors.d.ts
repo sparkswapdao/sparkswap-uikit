@@ -10,6 +10,7 @@ export declare const baseColors: {
 };
 export declare const brandColors: {
     binance: string;
+    pulse: string;
 };
 export declare const lightColors: Colors;
 export declare const darkColors: Colors;
