@@ -17,6 +17,7 @@ export type Login = (connectorId: ConnectorId) => void;
 
 export interface Config {
   title: string;
-  icon: FC<SvgProps>;
+  icon?: FC<SvgProps>;
+  fallbackImage?: string;
   connectorId: ConnectorId;
 }

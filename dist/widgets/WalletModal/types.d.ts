@@ -4,6 +4,7 @@ export declare type ConnectorId = "authereum" | "fortmatic" | "frame" | "injecte
 export declare type Login = (connectorId: ConnectorId) => void;
 export interface Config {
     title: string;
-    icon: FC<SvgProps>;
+    icon?: FC<SvgProps>;
+    fallbackImage?: string;
     connectorId: ConnectorId;
 }
