@@ -16,7 +16,7 @@ const connectors: Config[] = [
     connectorId: "injected",
   },
   {
-    title: "WalletConnect",
+    title: "Wallet Connect",
     icon: WalletConnect,
     connectorId: "walletconnect",
   },
