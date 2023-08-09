@@ -13,7 +13,7 @@ const connectors: Config[] = [
   {
     title: "Metamask",
     icon: Metamask,
-    connectorId: "injected",
+    connectorId: "metamask",
   },
   {
     title: "Wallet Connect",

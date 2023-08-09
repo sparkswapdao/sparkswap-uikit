@@ -2447,7 +2447,7 @@ var connectors = [
     {
         title: "Metamask",
         icon: Icon$16,
-        connectorId: "injected",
+        connectorId: "metamask",
     },
     {
         title: "Wallet Connect",

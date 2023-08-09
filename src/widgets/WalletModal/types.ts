@@ -5,6 +5,7 @@ export type ConnectorId =
   | "authereum"
   | "fortmatic"
   | "frame"
+  | "metamask"
   | "injected"
   | "portis"
   | "squarelink"
