@@ -1,12 +1,5 @@
 import Metamask from "./icons/Metamask";
-import MathWallet from "./icons/MathWallet";
-import TokenPocket from "./icons/TokenPocket";
-import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
-import CoinbaseWallet from "./icons/CoinbaseWallet";
-import BinanceChain from "./icons/BinanceChain";
-import BraveWallet from "./icons/BraveWallet";
-import OtherWallet from "./icons/OtherWallet";
 import { Config } from "./types";
 
 const connectors: Config[] = [
