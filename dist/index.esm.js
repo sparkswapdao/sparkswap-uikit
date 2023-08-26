@@ -2214,6 +2214,10 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
+                label: "Sparkswap",
+                href: "https://t.me/impulse_money",
+            },
+            {
                 label: "EMP Money",
                 href: "https://t.me/empmoney",
             },
