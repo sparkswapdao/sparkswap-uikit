@@ -2228,7 +2228,7 @@ var socials = [
         items: [
             {
                 label: "Sparkswap",
-                href: "https://t.me/impulse_money",
+                href: "https://t.me/spark_swap",
             },
             {
                 label: "EMP Money",
