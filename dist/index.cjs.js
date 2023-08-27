@@ -2239,7 +2239,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/impulse_money",
+        href: "https://x.com/sparkswap_",
     },
 ];
 var MENU_HEIGHT = 64;
