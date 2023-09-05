@@ -2322,8 +2322,7 @@ var PanelBody = function (_a) {
         var calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
         if (entry.items) {
             return (React.createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, initialOpenState: entry.initialOpenState, className: calloutClass }, isPushed &&
-                entry.items.map(function (item) { return (React.createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
-                    React.createElement(MenuLink, { target: "_blank", href: item.href }, item.label))); })));
+                entry.items.map(function (item) { return (React.createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick }, item.openTab ? (React.createElement(MenuLink, { target: "_blank", href: item.href }, item.label)) : (React.createElement(MenuLink, { href: item.href }, item.label)))); })));
         }
         return (React.createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
             React.createElement(MenuLink, { href: entry.href, onClick: handleClick },
