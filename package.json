@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap-libs/uikit",
+  "name": "sparkswap-uikit",
   "version": "1.0.0",
-  "description": "Set of UI components for spark projects",
+  "description": "Set of UI components for Sparkswap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/empm0ney/uikit",
+  "repository": "https://github.com/sparkswapdao/sparkswap-uikit",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
